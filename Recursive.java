@@ -33,5 +33,8 @@ public class Recursive{
         for(int a=0;a<daftarString.size();a++){
             System.out.println(daftarString.get(a));
         }
+
+        Collections.sort(daftarString,Collections.reverseOrder());
+        System.out.println(daftarString);
     }
 }
